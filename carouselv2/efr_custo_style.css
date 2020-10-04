@@ -1,0 +1,585 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+}
+
+
+.carousel-block > h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-title{
+    font-size: 2.0em;
+    background-color: #0c4391;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-left: -200px;
+    color: white;
+}
+
+.section-row{
+  margin-top:30px;
+}
+.slogan{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.carousel-line{
+    display: block;
+    margin: auto;
+    height: 5px;
+    width: 150px;
+    background-color: #0c4391;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+.space30{
+  display:block;
+  height:30px;
+}
+
+.section-gris{
+  background-color: #F7F7F7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-blanc{
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.section-end{
+  background-color: #000000CC;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+.title-line{
+  display: none;
+  background-color: #0075D0;
+  height: 3px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* CUSTOMIZE SITE HEADER
+--------------------------------------------------*/
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  bottom: 3rem;
+  top: 3rem;
+  z-index: 10;
+}
+
+.carousel-block{
+  margin: auto;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  max-height: 100%;
+}
+
+.carousel-1{
+  background-image: url("../img/img-header-1.jpg");
+  background-size: cover;
+}
+
+.carousel-2{
+  background-image: url("../img/img-header-1.jpg");
+  background-size: cover;
+}
+.carousel-3{
+  background-image: url("../img/img-header-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.opacity-block{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #00000077;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  margin-top: 0px !important;
+}
+
+.about{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-text{
+  text-align: center;
+}
+
+
+
+/* Financement CPF
+------------------------- */
+.temoignages{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.temoignage-points{
+  margin:auto;
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.bi-circle-fill{
+  color: #0075D0;
+}
+
+.temoignage-space{
+  margin-top: 50px;
+  margin-bottom : 30px;
+}
+
+.temoignage-side-pane-container{
+  width: 100%;
+  align-items: center !important;
+  display: flex;
+}
+.temoignage-right-pane{
+  height:90%;
+  width: 100%;
+  background-color: #0c4391;
+}
+
+.temoignage-left-pane{
+  height:90%;
+  width: 100%;
+  background-color: #0c4391;
+}
+
+.temoignage-all-cards{
+  margin: auto;
+}
+
+.temoignage-card-space{
+  align-items: center !important;
+  display: flex;
+}
+
+.temoignage-card-side{
+  background-color: #0c439155;
+  padding-top:30px;
+  padding-bottom:30px;
+  height: 100%;
+  padding-left:5px;
+  padding-right: 5px;
+
+}
+
+.temoignage-card-center{
+  border: 2px solid  #0075D055;
+  padding-top:40px;
+  padding-bottom:40px;
+  height: 110%;
+  padding-left:5px;
+  padding-right: 5px;
+}
+
+.temoignage-card-name{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.temoignage-card-text{
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+
+.temoignage-card-star{
+  text-align: center;
+  margin:auto;
+  display:block;
+  color: #f0f036;
+}
+
+.temoignage-card-img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  object-fit: cover;
+  margin: auto;
+
+  margin-bottom: 15px;
+
+}
+
+/* Contact
+------------------------- */
+.contact{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contact-info-efr{
+  background-color: #0c4391;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-info-efr > h1{
+  color: white;
+  font-size:30px;
+}
+
+.contact-info-efr > p{
+  color: white;
+}
+
+.btn-contact{
+  background-color:#0c4391;
+}
+
+/* Solution B2B
+------------------------- */
+.solution_b2b{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Financement CPF
+------------------------- */
+.financement_cpf{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.financement_cpf_img{
+  width: 100%;
+}
+
+.financement_cpf-text{
+
+}
+
+/* Nos formations
+------------------------- */
+.formations{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.formation-separation{
+  height: 20px;
+}
+
+.formation-card{
+  background: white;
+  width: 230px;
+  height: 380px;
+  padding:0px;
+  margin:auto;
+  padding-top: 20px;
+  box-shadow: 1px 1px 1px 1px #00000022;
+
+}
+
+.formation-icon{
+  margin:auto;
+  display:block;
+  margin-bottom: 30px;
+}
+
+.formation-card-title{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0075D0;
+  font-size: 1.4rem;
+
+}
+
+.formation-text{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 11px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.formation-btn{
+  margin:0px;
+  width:230px;
+  border-radius: 0px;
+  background-color: #0c4391;
+  position: absolute;
+  bottom:0px;
+  color: white;
+}
+
+.formation-btn > span{
+  color: white;
+}
+
+/* Methode EFR
+------------------------- */
+.methode_efr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.methode-efr-text{
+}
+
+.methode_efr_images{
+  background: red;
+  margin-bottom: 2rem;
+}
+
+.methode_efr_img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.methode_efr_img_container:hover .methode_efr_img_overlay_inner {
+  opacity: 0.8;
+}
+
+.methode_efr_img_overlay{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+}
+
+.methode_efr_img_overlay_inner{
+  background-color: #000;
+  transition: .5s ease;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 10px;
+
+
+}
+
+.methode_efr_img_overlay_text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media(max-width: 750px){
+  .methode-efr-text{
+      /* margin-top: 20px; */
+  }
+
+
+}
+
+@media(min-width: 400px){
+  .carousel-line{
+      width: 300px;
+  }
+
+  .carousel-block > h1{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 800px){
+  .carousel-block > h1{
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .slogan{
+    text-align: center;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1200px){
+  .carousel-block > h1{
+    text-align: center;
+    font-size: 5rem !important;
+  }
+
+  .carousel-block > p{
+    font-size: 2rem !important;
+  }
+
+  .slogan{
+    text-align: center;
+    font-size: 405em;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* Bump up size of carousel content */
+  .methode_efr{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .formations{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .financement_cpf{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .solution_b2b{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .about{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .temoignages{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .contact{
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-block > p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
