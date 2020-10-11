@@ -1,0 +1,82 @@
+.formation-header{
+  background-image: url("../img/formation-bg.jpg");
+  background-size: cover;
+  height: 15rem;
+}
+
+.objectif-section{
+
+  border-radius: 10px;
+  padding-left:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.objectif-section-gris{
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  padding-left:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.objectif-section-blanc{
+  background-color: white;
+  border-radius: 10px;
+  padding-left:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.programme-description{
+  margin-top: 15px;
+}
+
+.programme-card{
+  max-width: 300px;
+  padding:0px;
+  margin:auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.objectif-icon{
+  font-size: 50px;
+  vertical-align:middle;
+  margin-right: 10px;
+}
+
+.objectif-section > h3{
+  font-weight: bold;
+}
+
+.objectif-section > p{
+  font-size: 1.5em;
+}
+
+.formation-section-card:first-child{
+  border-right: 1px solid #0075D0;
+}
+
+.formation-section-card:last-child{
+  border-left: 1px solid #0075D0;
+}
+
+.formation-text{
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media(max-width: 576px){
+  .formation-section-card:first-child{
+    border-right: 0px solid #0075D0;
+  }
+
+}
+@media(max-width: 990px){
+
+
+  .formation-section-card:last-child{
+    border-left: 0px solid #0075D0;
+  }
+}

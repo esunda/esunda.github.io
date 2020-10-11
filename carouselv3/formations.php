@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../img/64w/logo64.png" type="image/png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Formations - English For Reel</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="efr_custo_style.css" rel="stylesheet"/>
+    <link href="formations.css" rel="stylesheet"/>
+  </head>
+  <body>
+  <header>
+
+  <nav class="site-header sticky-top py-1">
+
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product">
+      <img   src="../img/64w/logo64.png"  height="57" alt="">
+    </a>
+    <span>
+    <!-- <a class="py-2 d-none d-md-inline-block" href="#methode_efr">Methode EFR</a>
+    <a class="py-2 d-none d-md-inline-block" href="#formations">Formations</a>
+    <a class="py-2 d-none d-md-inline-block" href="#financement_cpf">Financement CPF</a>
+    <a class="py-2 d-none d-md-inline-block" href="#solution_b2b">Solution B2B</a>
+    <a class="py-2 d-none d-md-inline-block" href="#temoignages">Témoignages</a> -->
+    <a class="py-2 d-none d-md-inline-block" href="index.php">Accueil</a>
+    <a class="py-2 d-none d-md-inline-block menu-item" href="formations.php">Formations</a>
+  </span>
+  </div>
+</nav>
+</header>
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active formation-header">
+        <span class="opacity-block"></span>
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="carousel-block">
+              <h1>Formation</h1>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="section-blanc">
+    <div class="methode_efr" id="methode_efr">
+      <span class="title-line"></span>
+      <div class="row section-row">
+
+        <div class="col-md-8 col-sm-12 methode-efr-text">
+          <table style="height: 100%;">
+            <tbody>
+              <tr>
+                <td class="align-middle">
+                  <h1 class="section-title">Anglais générale</h1>
+                  <p class="programme-description"><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ultrices ante. Pellentesque id elementum leo. Maecenas ligula magna, gravida ut orci vel, aliquam venenatis ipsum. Mauris fermentum eros quam, ut fermentum ipsum pulvinar quis. Donec sed erat euismod, posuere mauris id, malesuada nunc. Aenean commodo, mauris ut dapibus consequat, nunc quam ultricies nisl, vehicula mattis tortor dui gravida libero. Aliquam erat volutpat. Nulla dictum tellus urna, non tincidunt nisi finibus a. Nullam vel sodales lorem, ut pharetra odio. Mauris faucibus enim nec fermentum vehicula. Maecenas auctor hendrerit dolor, eget ultricies nisi.</p>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 col-sm-12 methode-efr-img">
+          <div class="objectif-section-gris">
+            <h3>Objectif</h3>
+            <p><ion-icon class="objectif-icon" name="airplane"></ion-icon> Voyager</p>
+            <p><ion-icon class="objectif-icon" name="school"></ion-icon> Passer des concours</p>
+          </div>
+        </div>
+      </div>
+      <div class="row section-row justify-content-center">
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+
+              <h2 class="formation-card-title">Anglais générale</h2>
+                <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue
+
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+              <h2 class="formation-card-title">Compréhension orale</h2>
+              <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue.
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+              <h2 class="formation-card-title">Anglais générale</h2>
+              <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section-gris">
+    <div class="methode_efr" id="methode_efr">
+      <span class="title-line"></span>
+      <div class="row section-row">
+
+        <div class="col-md-8 col-sm-12 methode-efr-text">
+          <table style="height: 100%;">
+            <tbody>
+              <tr>
+                <td class="align-middle">
+                  <h1 class="section-title">Anglais générale</h1>
+                  <p class="programme-description"><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ultrices ante. Pellentesque id elementum leo. Maecenas ligula magna, gravida ut orci vel, aliquam venenatis ipsum. Mauris fermentum eros quam, ut fermentum ipsum pulvinar quis. Donec sed erat euismod, posuere mauris id, malesuada nunc. Aenean commodo, mauris ut dapibus consequat, nunc quam ultricies nisl, vehicula mattis tortor dui gravida libero. Aliquam erat volutpat. Nulla dictum tellus urna, non tincidunt nisi finibus a. Nullam vel sodales lorem, ut pharetra odio. Mauris faucibus enim nec fermentum vehicula. Maecenas auctor hendrerit dolor, eget ultricies nisi.</p>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 col-sm-12 methode-efr-img">
+          <div class="objectif-section-blanc">
+            <h3>Objectif</h3>
+            <p><ion-icon class="objectif-icon" name="airplane"></ion-icon> Voyager</p>
+            <p><ion-icon class="objectif-icon" name="school"></ion-icon> Passer des concours</p>
+          </div>
+        </div>
+      </div>
+      <div class="row section-row">
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+
+              <h2 class="formation-card-title">Anglais générale</h2>
+                <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue
+
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+              <h2 class="formation-card-title">Compréhension orale</h2>
+              <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue.
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+              <h2 class="formation-card-title">Anglais générale</h2>
+              <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section-blanc">
+    <div class="methode_efr" id="methode_efr">
+      <span class="title-line"></span>
+      <div class="row section-row">
+
+        <div class="col-md-8 col-sm-12 methode-efr-text">
+          <table style="height: 100%;">
+            <tbody>
+              <tr>
+                <td class="align-middle">
+                  <h1 class="section-title">Anglais générale</h1>
+                  <p class="programme-description"><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ultrices ante. Pellentesque id elementum leo. Maecenas ligula magna, gravida ut orci vel, aliquam venenatis ipsum. Mauris fermentum eros quam, ut fermentum ipsum pulvinar quis. Donec sed erat euismod, posuere mauris id, malesuada nunc. Aenean commodo, mauris ut dapibus consequat, nunc quam ultricies nisl, vehicula mattis tortor dui gravida libero. Aliquam erat volutpat. Nulla dictum tellus urna, non tincidunt nisi finibus a. Nullam vel sodales lorem, ut pharetra odio. Mauris faucibus enim nec fermentum vehicula. Maecenas auctor hendrerit dolor, eget ultricies nisi.</p>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 col-sm-12 methode-efr-img">
+          <div class="objectif-section-gris">
+            <h3>Objectif</h3>
+            <p><ion-icon class="objectif-icon" name="airplane"></ion-icon> Voyager</p>
+            <p><ion-icon class="objectif-icon" name="school"></ion-icon> Passer des concours</p>
+          </div>
+        </div>
+      </div>
+      <div class="row section-row">
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+
+              <h2 class="formation-card-title">Anglais générale</h2>
+                <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue
+
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+              <h2 class="formation-card-title">Compréhension orale</h2>
+              <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue.
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-sm-6 mt-4 formation-section-card">
+          <div class="programme-card">
+
+              <h2 class="formation-card-title">Anglais générale</h2>
+              <p class="formation-text">
+                Passer un examen de langue reconnu qui atteste de vos compétences en anglais devient un prérequis. Une certification en langue telle que le TOEIC, TOEFL, IELTS ou encore le BULATS Linguaskill constitue
+              </p>
+
+            </div>
+        </div><!-- /.col-lg-4 -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section-gris section-maps">
+
+
+    <div class="contact" id="contact">
+      <h1 class="section-title">Contact</h1>
+      <span class="title-line"></span>
+      <div class="row section-row">
+        <div class="col-md-4 col-sm-12">
+          <div class="contact-info-efr">
+            <h1>English For Real</h1>
+            <p>
+              <ion-icon name="home"></ion-icon> 2 Esp Charle de Gaulle, 33300 Bordeaux <br/>
+              <ion-icon name="mail"></ion-icon> contact@englishforreal.com <br/>
+              <ion-icon name="call"></ion-icon> +33 5 78 90 32 56 <br/>
+              <ion-icon name="globe"></ion-icon> www.englishforreal.com
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12 financement_cpf-text">
+          <table style="height: 100%; width:100%">
+            <tbody>
+              <tr>
+                <td class="align-middle">
+                  <form class="" action="#" method="post">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputPrenom" placeholder="Prenom">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputNom" placeholder="Nom">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Mail">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="inputNumero" placeholder="Numéro (+33)">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Votre message ...</textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn-contact btn btn-primary">Envoyer</button>
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="section-end">
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2020 EnglishForReal, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </div>
+</main>
+<script src="../assets/dist/js/jquery-3.5.1.slim.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>
+
+    </body>
+</html>
